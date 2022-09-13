@@ -6,8 +6,6 @@
 // Currently this identifies Pixels that are not UI or only "partially" UI and right next to "full" UI pixels (alpha channel = 1)
 // This means transparent text will not become more readable, like distant nameplates, but prevents a boatload of weird artifacts across the entire UI
 
-// TODO: Blur the border created by the Shader. Looks fine on my 4k screen at this distance but other people may see the aliasing.
-
 #include "ReShade.fxh"
 
 #ifndef UiShadowNumDilations
